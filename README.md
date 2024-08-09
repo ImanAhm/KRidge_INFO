@@ -33,7 +33,7 @@ X = data.iloc[:, :-1].values
 y = data.iloc[:, -1].values  
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=nTs, random_state=0)   
  
-kernel_type = 'wavelet'  
+kernel_type = 'wavelet'  # or 'RBF' 
 
 # Main parameters of INFO and KRidge
 nP = 50, # population Size of INFO Algorithm
