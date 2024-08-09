@@ -35,7 +35,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=nTs, random_
  
 kernel_type = 'wavelet'  
 
-# Main parameters if INFO and KRidge
+# Main parameters of INFO and KRidge
 nP = 50, # population Size of INFO Algorithm
 MaxIt = 20 # Maximum iteration of INFO Algorithm
 
