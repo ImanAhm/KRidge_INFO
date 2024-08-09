@@ -24,10 +24,10 @@ y = data.iloc[:, -1].values
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=nTs, random_state=0)   
  
 kernel_type = 'wavelet'  
-nP = 50
-MaxIt = 20
-UC = 2e10    #Upper Bound for C coefficient in KRidge model.
-UKF = 2e10   #Upper Bound for kernel function coefficient in KRidge model.
+nP = 50,
+MaxIt = 20,
+UC = 2e10,    #Upper Bound for C coefficient in KRidge model.
+UKF = 2e10,   #Upper Bound for kernel function coefficient in KRidge model.
 best_parameters = RUN_INFO(nP, MaxIt,X_train, X_test, y_train, y_test,kernel_type,UC,UKF)
 
 # After obtaining final predictions  
