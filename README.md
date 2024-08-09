@@ -8,6 +8,17 @@ This code implements a Kernel Ridge Regression (KRidge) model optimized using th
 - **Performance Evaluation:** Calculates and saves a comprehensive set of regression metrics (R2, RMSE, MAPE, KGE, NSE, WHD, VSD, WAI) to assess model performance on training and testing datasets.  
 - **Excel Output:** Saves the calculated metrics and actual vs. predicted values into a well-structured Excel file for easy analysis and comparison.  
 
+************************************
+# Installation
+
+- **`pip install KRidge_INFO`**
+- **`pip install IM_Metrics`**
+- **`pip install info_optimizer`**
+
+************************************
+
+
+
 **`Eample`:** 
 
 import pandas as pd  
